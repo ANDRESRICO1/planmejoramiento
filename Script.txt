@@ -1,0 +1,23 @@
+create database resultados;
+
+use resultados;
+
+create table TablaMultiplicacion
+(
+idconsulta int(20) not null auto_increment,
+numero int(20) not null,
+resultado1 int(20) not null,
+resultado2 int(20) not null,
+resultado3 int(20) not null,
+resultado4 int(20) not null,
+resultado5 int(20) not null,
+resultado6 int(20) not null,
+resultado7 int(20) not null,
+resultado8 int(20) not null,
+resultado9 int(20) not null,
+resultado10 int(20) not null,
+primary key (idconsulta));
+
+
+
+	 
